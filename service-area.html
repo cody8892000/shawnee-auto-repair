@@ -1,500 +1,868 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#0a0d0f">
-  <meta name="color-scheme" content="dark">
-  <meta name="robots" content="index,follow,max-image-preview:large">
-
-  <title>Southern Illinois Service Area | Shawnee Auto Repair</title>
-  <meta name="description" content="Shawnee Auto Repair serves Saline, Williamson, Franklin and Hamilton counties, with nearby Southern Illinois locations considered by request.">
-  <link rel="canonical" href="https://www.shawneeautorepairil.com/service-area.html">
-
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="Southern Illinois Service Area | Shawnee Auto Repair">
-  <meta property="og:description" content="Primary auto-repair coverage across Saline, Williamson, Franklin and Hamilton counties, with nearby Southern Illinois locations considered by request.">
-  <meta property="og:url" content="https://www.shawneeautorepairil.com/service-area.html">
-  <meta property="og:site_name" content="Shawnee Auto Repair">
-
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "WebPage",
-    "name": "Shawnee Auto Repair Service Area",
-    "url": "https://www.shawneeautorepairil.com/service-area.html",
-    "about": {
-      "@type": "AutoRepair",
-      "@id": "https://www.shawneeautorepairil.com/#business",
-      "name": "Shawnee Auto Repair",
-      "url": "https://www.shawneeautorepairil.com/",
-      "telephone": "+1-773-270-0744",
-      "email": "shawneerepairco@gmail.com",
-      "areaServed": [
-        {"@type":"AdministrativeArea","name":"Saline County, Illinois"},
-        {"@type":"AdministrativeArea","name":"Williamson County, Illinois"},
-        {"@type":"AdministrativeArea","name":"Franklin County, Illinois"},
-        {"@type":"AdministrativeArea","name":"Hamilton County, Illinois"}
-      ]
-    }
-  }
-  </script>
-
-  <style>
-    :root {
-      --bg:#07090a;
-      --bg-2:#0d1012;
-      --panel:#111518;
-      --line:rgba(255,255,255,.11);
-      --line-strong:rgba(255,255,255,.2);
-      --text:#f4f7f8;
-      --muted:#aeb8bd;
-      --green:#8dff00;
-      --green-soft:rgba(141,255,0,.13);
-      --shadow:0 18px 55px rgba(0,0,0,.42);
-      --max:1180px;
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#0a0d0f"><meta name="color-scheme" content="dark"><meta name="robots" content="index,follow,max-image-preview:large"><title>Southern Illinois Service Area | Shawnee Auto Repair</title><meta name="description" content="Shawnee Auto Repair serves Saline, Williamson, Franklin and Hamilton counties, with nearby Southern Illinois locations considered by request."><link rel="canonical" href="https://www.shawneeautorepairil.com/service-area.html"><meta property="og:type" content="website"><meta property="og:title" content="Southern Illinois Service Area | Shawnee Auto Repair"><meta property="og:description" content="Primary auto-repair coverage across Saline, Williamson, Franklin and Hamilton counties, with nearby Southern Illinois locations considered by request."><meta property="og:url" content="https://www.shawneeautorepairil.com/service-area.html"><meta property="og:site_name" content="Shawnee Auto Repair"><script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Shawnee Auto Repair Service Area","url":"https://www.shawneeautorepairil.com/service-area.html","about":{"@type":"AutoRepair","@id":"https://www.shawneeautorepairil.com/#business","name":"Shawnee Auto Repair","url":"https://www.shawneeautorepairil.com/","telephone":"+1-773-270-0744","email":"shawneerepairco@gmail.com","areaServed":[{"@type":"AdministrativeArea","name":"Saline County, Illinois"},{"@type":"AdministrativeArea","name":"Williamson County, Illinois"},{"@type":"AdministrativeArea","name":"Franklin County, Illinois"},{"@type":"AdministrativeArea","name":"Hamilton County, Illinois"}]}}</script><style>
+:root {
+      --bg: #07090a;
+      --bg-2: #0d1012;
+      --panel: #111518;
+      --panel-2: #171c20;
+      --panel-3: #20262a;
+      --line: rgba(255,255,255,.11);
+      --line-strong: rgba(255,255,255,.2);
+      --text: #f4f7f8;
+      --muted: #aeb8bd;
+      --green: #8dff00;
+      --green-2: #5ee600;
+      --green-soft: rgba(141,255,0,.13);
+      --silver: #dfe5e8;
+      --shadow: 0 18px 55px rgba(0,0,0,.42);
+      --radius: 18px;
+      --max: 1180px;
     }
 
-    *{box-sizing:border-box}
-    html{scroll-behavior:smooth}
-    section[id]{scroll-margin-top:98px}
-    body{
-      margin:0;
-      color:var(--text);
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    section[id] { scroll-margin-top: 96px; }
+    body {
+      margin: 0;
+      color: var(--text);
+      background: var(--bg);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.55;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    body::before {
+      display: none;
+    }
+
+    a { color: inherit; text-decoration: none; }
+    a:focus-visible, button:focus-visible, summary:focus-visible {
+      outline: 3px solid var(--green);
+      outline-offset: 4px;
+    }
+    button, input, textarea, select { font: inherit; }
+    img, svg { display: block; max-width: 100%; }
+
+    .wrap { width: min(var(--max), calc(100% - 36px)); margin-inline: auto; }
+    .section { padding: 88px 0; position: relative; }
+    .section-tight { padding: 62px 0; }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 9px;
+      margin-bottom: 12px;
+      color: var(--green);
+      font-size: .76rem;
+      font-weight: 750;
+      letter-spacing: .09em;
+      text-transform: uppercase;
+    }
+    .eyebrow::before {
+      content: "";
+      width: 20px;
+      height: 2px;
+      background: var(--green);
+    }
+
+    h1, h2, h3, p { margin-top: 0; }
+    h1, h2, .display {
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      text-transform: none;
+      letter-spacing: -.035em;
+    }
+    h1 {
+      margin-bottom: 18px;
+      max-width: 760px;
+      font-size: clamp(2.7rem, 5.4vw, 4.9rem);
+      line-height: .98;
+      font-style: normal;
+      text-shadow: none;
+    }
+    h2 {
+      margin-bottom: 16px;
+      font-size: clamp(1.9rem, 3.5vw, 3.25rem);
+      line-height: 1.04;
+      font-style: normal;
+    }
+    h3 { margin-bottom: 8px; font-size: 1.14rem; }
+    p { color: var(--muted); }
+
+    .green { color: var(--green); }
+    .silver { color: var(--silver); }
+    .lead { max-width: 760px; font-size: clamp(1.04rem, 1.7vw, 1.2rem); }
+
+    /* Top strip */
+    .promo-strip {
+      border-bottom: 1px solid rgba(141,255,0,.35);
+      background: linear-gradient(90deg, rgba(141,255,0,.16), rgba(141,255,0,.03) 42%, rgba(141,255,0,.14));
+    }
+    .promo-strip .wrap {
+      min-height: 42px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 9px;
+      text-align: center;
+      font-size: .84rem;
+      font-weight: 800;
+      letter-spacing: .035em;
+    }
+    .promo-strip strong { color: var(--green); text-transform: uppercase; }
+
+    /* Navigation */
+    .site-nav {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      border-bottom: 1px solid var(--line);
+      background: rgba(7,9,10,.9);
+      backdrop-filter: blur(15px);
+    }
+    .nav-inner {
+      min-height: 78px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+    }
+    .brand {
+      min-width: 238px;
+      line-height: 1;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-weight: 820;
+      font-style: normal;
+      text-transform: none;
+    }
+    .brand-main {
+      display: block;
+      color: #f7f9fa;
+      font-size: 1.48rem;
+      letter-spacing: -.035em;
+    }
+    .brand-main span { color: var(--green); }
+    .brand-sub {
+      display: block;
+      margin-top: 6px;
+      color: #929ca1;
+      font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+      font-size: .58rem;
+      font-style: normal;
+      font-weight: 700;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+    }
+    .nav-links {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      gap: 23px;
+      margin-left: auto;
+      font-size: .8rem;
+      font-weight: 800;
+      letter-spacing: .06em;
+      text-transform: uppercase;
+    }
+    .nav-links a { color: #c7d0d4; transition: .2s ease; }
+    .nav-links a:hover, .nav-links a[aria-current="page"] { color: var(--green); }
+
+    .call-pill, .btn-primary, .btn-secondary {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      min-height: 48px;
+      padding: 0 20px;
+      border: 1px solid transparent;
+      border-radius: 8px;
+      font-weight: 900;
+      letter-spacing: .02em;
+      transition: transform .2s ease, border-color .2s ease, background .2s ease, box-shadow .2s ease;
+    }
+    .call-pill, .btn-primary {
+      color: #071000;
+      background: var(--green);
+      box-shadow: none;
+    }
+    .btn-primary:hover, .call-pill:hover { transform: translateY(-1px); box-shadow: none; }
+    .btn-secondary {
+      color: #f5f8f9;
+      border-color: rgba(255,255,255,.24);
+      background: rgba(255,255,255,.04);
+    }
+    .btn-secondary:hover { transform: translateY(-2px); border-color: var(--green); color: var(--green); }
+
+    .menu-btn {
+      display: none;
+      width: 48px;
+      height: 48px;
+      padding: 0;
+      border: 1px solid var(--line-strong);
+      border-radius: 8px;
+      color: white;
+      background: rgba(255,255,255,.04);
+      cursor: pointer;
+    }
+    .menu-btn span,
+    .menu-btn::before,
+    .menu-btn::after {
+      content: "";
+      width: 21px;
+      height: 2px;
+      display: block;
+      margin: 5px auto;
+      background: currentColor;
+    }
+
+    /* Hero */
+    .hero {
+      position: relative;
+      overflow: hidden;
+      border-bottom: 1px solid rgba(255,255,255,.1);
+      background: #0a0d0f;
+    }
+    .hero::before {
+      display: none;
+    }
+    .hero::after {
+      display: none;
+    }
+    .hero-grid {
+      position: relative;
+      z-index: 2;
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 0;
+      align-items: center;
+      min-height: auto;
+      padding: 72px 0 64px;
+    }
+    .hero-copy {
+      max-width: 900px;
+    }
+    .hero-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 28px; }
+    .hero-schedule { margin: 0; color: #e2e7e9; font-size: .92rem; font-weight: 650; }
+    .phone-note { margin: 12px 0 0; color: #7f8a90; font-size: .8rem; }
+    .hero-facts { display: grid; grid-template-columns: repeat(3,1fr); margin-top: 34px; border-top: 1px solid rgba(255,255,255,.14); border-bottom: 1px solid rgba(255,255,255,.14); }
+    .hero-fact { padding: 17px 20px 17px 0; border-right: 1px solid rgba(255,255,255,.1); }
+    .hero-fact + .hero-fact { padding-left: 20px; }
+    .hero-fact:last-child { border-right: 0; }
+    .hero-fact strong { display:block; color:#fff; margin-bottom:3px; font-size:.98rem; }
+    .hero-fact span { display:block; color:#929da2; font-size:.84rem; line-height:1.45; }
+
+
+    .micro-trust {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 28px;
+    }
+    .micro-trust span {
+      padding: 8px 11px;
+      border: 1px solid rgba(255,255,255,.12);
+      border-radius: 999px;
+      color: #bac4c9;
+      background: rgba(255,255,255,.03);
+      font-size: .78rem;
+      font-weight: 700;
+    }
+    .micro-trust b { color: white; }
+
+    .hero-card {
+      position: relative;
+      overflow: hidden;
+      border: 1px solid rgba(255,255,255,.16);
+      border-top: 3px solid var(--green);
+      border-radius: 20px;
       background:
-        radial-gradient(circle at 15% -10%,rgba(141,255,0,.13),transparent 28rem),
-        radial-gradient(circle at 90% 12%,rgba(255,255,255,.05),transparent 25rem),
-        var(--bg);
-      font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
-      line-height:1.55;
-      -webkit-font-smoothing:antialiased;
+        linear-gradient(145deg, rgba(255,255,255,.07), rgba(255,255,255,.015)),
+        repeating-linear-gradient(135deg, rgba(255,255,255,.025) 0 1px, transparent 1px 12px),
+        #0d1113;
+      box-shadow: var(--shadow);
     }
-    body::before{
-      content:"";
-      position:fixed;
-      inset:0;
-      pointer-events:none;
-      z-index:-1;
-      opacity:.25;
-      background-image:
-        repeating-linear-gradient(135deg,transparent 0 18px,rgba(255,255,255,.018) 18px 19px),
-        repeating-linear-gradient(45deg,transparent 0 26px,rgba(141,255,0,.012) 26px 27px);
+    .hero-card::after {
+      content: "";
+      position: absolute;
+      width: 180px;
+      height: 500px;
+      right: -100px;
+      top: -80px;
+      transform: rotate(22deg);
+      background: linear-gradient(180deg, rgba(141,255,0,.18), transparent 70%);
+      filter: blur(18px);
     }
-    a{color:inherit;text-decoration:none}
-    a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid var(--green);outline-offset:4px}
-    button{font:inherit}
-    svg{display:block;max-width:100%}
-    h1,h2,h3,p{margin-top:0}
-    h1,h2{font-family:"Arial Narrow","Roboto Condensed",Impact,sans-serif;text-transform:uppercase;letter-spacing:-.025em}
-    h1{margin-bottom:22px;font-size:clamp(3.15rem,7vw,6.7rem);line-height:.9;font-style:italic;text-shadow:0 5px 30px rgba(0,0,0,.55)}
-    h2{margin-bottom:16px;font-size:clamp(2.2rem,4.2vw,4.25rem);line-height:.98;font-style:italic}
-    h3{margin-bottom:8px;font-size:1.15rem}
-    p{color:var(--muted)}
-    .green{color:var(--green)}
-    .wrap{width:min(var(--max),calc(100% - 36px));margin-inline:auto}
-    .section{position:relative;padding:84px 0}
-    .section-tight{padding:58px 0}
-    .lead{max-width:820px;font-size:clamp(1.04rem,1.7vw,1.22rem)}
-    .eyebrow{display:inline-flex;align-items:center;gap:10px;margin-bottom:13px;color:var(--green);font-size:.78rem;font-weight:900;letter-spacing:.18em;text-transform:uppercase}
-    .eyebrow::before{content:"";width:28px;height:3px;background:var(--green);box-shadow:0 0 16px rgba(141,255,0,.65)}
+    .hero-card-head {
+      padding: 24px 25px 20px;
+      border-bottom: 1px solid var(--line);
+    }
+    .checkline {
+      display: flex;
+      align-items: center;
+      gap: 11px;
+      color: #f2f5f6;
+      font-family: "Arial Narrow", Impact, sans-serif;
+      font-size: 1.7rem;
+      font-weight: 900;
+      font-style: italic;
+      letter-spacing: -.01em;
+      text-transform: uppercase;
+    }
+    .checkline .check {
+      width: 31px;
+      height: 31px;
+      display: grid;
+      place-items: center;
+      border: 2px solid var(--green);
+      color: var(--green);
+      box-shadow: none;
+    }
+    .hero-services { padding: 12px 25px 18px; }
+    .hero-services div {
+      display: grid;
+      grid-template-columns: 30px 1fr;
+      gap: 12px;
+      align-items: center;
+      padding: 12px 0;
+      border-bottom: 1px solid rgba(255,255,255,.07);
+      color: #dbe2e5;
+      font-size: .96rem;
+      font-weight: 730;
+    }
+    .hero-services div:last-child { border-bottom: 0; }
+    .hero-services svg { width: 24px; height: 24px; color: var(--green); }
 
-    .promo-strip{border-bottom:1px solid rgba(141,255,0,.35);background:linear-gradient(90deg,rgba(141,255,0,.16),rgba(141,255,0,.03) 42%,rgba(141,255,0,.14))}
-    .promo-strip .wrap{min-height:42px;display:flex;align-items:center;justify-content:center;gap:9px;text-align:center;font-size:.84rem;font-weight:800;letter-spacing:.035em}
-    .promo-strip strong{color:var(--green);text-transform:uppercase}
+    .offer {
+      margin: 0 20px 22px;
+      padding: 18px 18px 16px;
+      border: 1px solid rgba(141,255,0,.7);
+      border-radius: 11px;
+      background: rgba(141,255,0,.065);
+      box-shadow: none;
+    }
+    .offer strong {
+      display: block;
+      color: var(--green);
+      font-family: "Arial Narrow", Impact, sans-serif;
+      font-size: clamp(2.1rem, 4vw, 3.7rem);
+      font-style: italic;
+      line-height: .9;
+      text-transform: uppercase;
+    }
+    .offer span { display: block; margin-top: 8px; color: #e2e7e9; font-weight: 800; }
+    .offer small { display: block; margin-top: 7px; color: #8f9ba0; line-height: 1.35; }
 
-    .site-nav{position:sticky;top:0;z-index:100;border-bottom:1px solid var(--line);background:rgba(7,9,10,.9);backdrop-filter:blur(15px)}
-    .nav-inner{min-height:78px;display:flex;align-items:center;justify-content:space-between;gap:24px}
-    .brand{min-width:238px;line-height:.86;font-family:"Arial Narrow",Impact,sans-serif;font-weight:900;font-style:italic;text-transform:uppercase}
-    .brand-main{display:block;color:#f7f9fa;font-size:2rem;letter-spacing:-.045em}
-    .brand-main span{color:var(--green)}
-    .brand-sub{display:block;margin-top:5px;color:#b6c0c5;font-family:Inter,ui-sans-serif,system-ui,sans-serif;font-size:.62rem;font-style:normal;letter-spacing:.22em}
-    .nav-links{display:flex;align-items:center;justify-content:flex-end;gap:22px;margin-left:auto;font-size:.8rem;font-weight:800;letter-spacing:.06em;text-transform:uppercase}
-    .nav-links a{color:#c7d0d4;transition:.2s ease}
-    .nav-links a:hover,.nav-links a[aria-current="page"]{color:var(--green)}
-    .call-pill,.btn-primary,.btn-secondary{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:48px;padding:0 20px;border:1px solid transparent;border-radius:8px;font-weight:900;letter-spacing:.02em;transition:transform .2s ease,border-color .2s ease,color .2s ease,box-shadow .2s ease}
-    .call-pill,.btn-primary{color:#071000;background:linear-gradient(180deg,#a4ff32,var(--green));box-shadow:0 0 26px rgba(141,255,0,.17),inset 0 -2px 0 rgba(0,0,0,.18)}
-    .call-pill:hover,.btn-primary:hover{transform:translateY(-2px);box-shadow:0 8px 28px rgba(141,255,0,.2)}
-    .btn-secondary{color:#f5f8f9;border-color:rgba(255,255,255,.24);background:rgba(255,255,255,.04)}
-    .btn-secondary:hover{transform:translateY(-2px);border-color:var(--green);color:var(--green)}
-    .menu-btn{display:none;width:48px;height:48px;padding:0;border:1px solid var(--line-strong);border-radius:8px;color:white;background:rgba(255,255,255,.04);cursor:pointer}
-    .menu-btn span,.menu-btn::before,.menu-btn::after{content:"";width:21px;height:2px;display:block;margin:5px auto;background:currentColor}
+    /* trust rail */
+    .trust-rail {
+      position: relative;
+      z-index: 5;
+      border-top: 1px solid rgba(255,255,255,.07);
+      border-bottom: 1px solid rgba(255,255,255,.1);
+      background:
+        linear-gradient(180deg, rgba(255,255,255,.045), rgba(255,255,255,.01)),
+        #0d1012;
+    }
+    .trust-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+    }
+    .trust-item {
+      min-height: 116px;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      padding: 23px 30px;
+      border-right: 1px solid rgba(255,255,255,.08);
+    }
+    .trust-item:last-child { border-right: 0; }
+    .trust-icon {
+      flex: 0 0 48px;
+      width: 48px;
+      height: 48px;
+      display: grid;
+      place-items: center;
+      border: 1px solid rgba(141,255,0,.45);
+      border-radius: 10px;
+      color: var(--green);
+      background: rgba(141,255,0,.055);
+    }
+    .trust-icon svg { width: 25px; height: 25px; }
+    .trust-item strong {
+      display: block;
+      color: white;
+      font-size: 1.05rem;
+      text-transform: uppercase;
+    }
+    .trust-item span { display: block; margin-top: 2px; color: #93a0a6; font-size: .86rem; }
 
-    .page-hero{position:relative;overflow:hidden;border-bottom:1px solid rgba(141,255,0,.25);background:linear-gradient(110deg,rgba(4,6,7,.98),rgba(10,13,15,.96) 55%,rgba(18,22,25,.9))}
-    .page-hero::before{content:"";position:absolute;width:650px;height:650px;right:-190px;top:-245px;border:1px solid rgba(141,255,0,.14);border-radius:50%;box-shadow:0 0 90px rgba(141,255,0,.07)}
-    .page-hero::after{content:"";position:absolute;inset:auto -8% 0 45%;height:47%;transform:skewX(-18deg);border-left:1px solid rgba(141,255,0,.16);background:linear-gradient(180deg,rgba(141,255,0,.06),transparent 72%)}
-    .hero-inner{position:relative;z-index:2;min-height:590px;display:grid;grid-template-columns:1.08fr .92fr;gap:52px;align-items:center;padding:72px 0 76px}
-    .hero-copy{max-width:760px}
-    .hero-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}
-    .hero-panel{overflow:hidden;border:1px solid rgba(141,255,0,.3);border-top:3px solid var(--green);border-radius:18px;background:linear-gradient(145deg,rgba(255,255,255,.055),rgba(255,255,255,.012)),repeating-linear-gradient(135deg,transparent 0 14px,rgba(255,255,255,.018) 14px 15px),#0d1113;box-shadow:var(--shadow)}
-    .hero-panel-head{padding:24px 26px 20px;border-bottom:1px solid rgba(255,255,255,.09)}
-    .hero-panel-head strong{font-family:"Arial Narrow",Impact,sans-serif;font-size:1.8rem;font-style:italic;text-transform:uppercase}
-    .county-quick{display:grid;grid-template-columns:1fr 1fr;gap:10px;padding:22px}
-    .county-quick a{padding:15px;border:1px solid rgba(141,255,0,.2);border-radius:9px;background:rgba(141,255,0,.035);color:#e4eaed;font-weight:850;transition:.2s ease}
-    .county-quick a:hover{border-color:rgba(141,255,0,.6);color:var(--green);transform:translateY(-2px)}
-    .hero-note{margin:0 22px 22px;padding:16px 17px;border:1px solid rgba(255,255,255,.1);border-radius:10px;background:rgba(255,255,255,.025);color:#aeb9be;font-size:.9rem}
-    .hero-note strong{display:block;margin-bottom:3px;color:white}
+    /* Cards / sections */
+    .section-head {
+      display: flex;
+      align-items: end;
+      justify-content: space-between;
+      gap: 30px;
+      margin-bottom: 34px;
+    }
+    .section-head p { max-width: 680px; margin-bottom: 0; }
 
-    .trust-rail{border-top:1px solid rgba(255,255,255,.07);border-bottom:1px solid rgba(255,255,255,.1);background:linear-gradient(180deg,rgba(255,255,255,.045),rgba(255,255,255,.01)),#0d1012}
-    .trust-grid{display:grid;grid-template-columns:repeat(3,1fr)}
-    .trust-item{min-height:116px;display:flex;align-items:center;gap:16px;padding:23px 30px;border-right:1px solid rgba(255,255,255,.08)}
-    .trust-item:last-child{border-right:0}
-    .trust-icon{flex:0 0 48px;width:48px;height:48px;display:grid;place-items:center;border:1px solid rgba(141,255,0,.45);border-radius:10px;color:var(--green);background:rgba(141,255,0,.055);font-weight:1000}
-    .trust-icon svg{width:24px;height:24px}
-    .trust-item strong{display:block;color:white;text-transform:uppercase}
-    .trust-item span{display:block;margin-top:2px;color:#93a0a6;font-size:.86rem}
+    .steps {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 14px;
+    }
+    .step {
+      position: relative;
+      overflow: hidden;
+      min-height: 225px;
+      padding: 28px 23px;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      background: linear-gradient(165deg, rgba(255,255,255,.055), rgba(255,255,255,.015));
+    }
+    .step::after {
+      content: attr(data-step);
+      position: absolute;
+      right: 12px;
+      bottom: -18px;
+      color: rgba(255,255,255,.03);
+      font-family: Impact, sans-serif;
+      font-size: 7rem;
+      line-height: 1;
+    }
+    .step-no {
+      width: 36px;
+      height: 36px;
+      display: grid;
+      place-items: center;
+      margin-bottom: 25px;
+      border: 1px solid rgba(141,255,0,.55);
+      border-radius: 6px;
+      color: var(--green);
+      background: var(--green-soft);
+      font-size: .78rem;
+      font-weight: 900;
+    }
+    .step p { margin-bottom: 0; font-size: .92rem; }
 
-    .section-head{display:flex;align-items:end;justify-content:space-between;gap:32px;margin-bottom:35px}
-    .section-head p{max-width:690px;margin-bottom:0}
-    .dark-section{border-top:1px solid rgba(255,255,255,.07);border-bottom:1px solid rgba(255,255,255,.07);background:linear-gradient(180deg,rgba(255,255,255,.018),transparent),var(--bg-2)}
+    .services-section {
+      border-top: 1px solid rgba(255,255,255,.07);
+      border-bottom: 1px solid rgba(255,255,255,.07);
+      background:
+        linear-gradient(180deg, rgba(255,255,255,.018), transparent),
+        var(--bg-2);
+    }
+    .service-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 14px;
+    }
+    .service-card {
+      min-height: 210px;
+      padding: 24px 21px 22px;
+      border: 1px solid rgba(255,255,255,.1);
+      border-radius: 14px;
+      background: linear-gradient(150deg, rgba(255,255,255,.045), rgba(255,255,255,.012));
+      transition: .22s ease;
+    }
+    .service-card:hover {
+      transform: translateY(-3px);
+      border-color: rgba(141,255,0,.46);
+      box-shadow: 0 15px 35px rgba(0,0,0,.2);
+    }
+    .service-card svg {
+      width: 31px;
+      height: 31px;
+      margin-bottom: 21px;
+      color: var(--green);
+    }
+    .service-card p { margin-bottom: 0; font-size: .9rem; }
 
-    .county-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
-    .county-card{position:relative;overflow:hidden;padding:32px;border:1px solid var(--line);border-top:3px solid var(--green);border-radius:16px;background:linear-gradient(155deg,rgba(255,255,255,.05),rgba(255,255,255,.013))}
-    .county-card::after{content:attr(data-abbr);position:absolute;right:12px;bottom:-25px;color:rgba(255,255,255,.032);font-family:Impact,sans-serif;font-size:8rem;line-height:1}
-    .county-card h3{position:relative;z-index:2;font-family:"Arial Narrow",Impact,sans-serif;font-size:2rem;font-style:italic;text-transform:uppercase}
-    .county-card p{position:relative;z-index:2;margin-bottom:19px}
-    .towns{position:relative;z-index:2;display:flex;flex-wrap:wrap;gap:8px}
-    .towns span{padding:8px 10px;border:1px solid rgba(255,255,255,.11);border-radius:999px;background:rgba(255,255,255,.025);color:#d9e1e4;font-size:.8rem;font-weight:750}
-    .county-foot{position:relative;z-index:2;margin-top:18px;color:#7f8b91;font-size:.78rem}
-
-    .availability-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:48px;align-items:start}
-    .availability-copy{position:sticky;top:120px}
-    .availability-copy p{max-width:520px}
-    .factor-list{display:grid;gap:12px}
-    .factor{display:grid;grid-template-columns:48px 1fr;gap:16px;padding:22px;border:1px solid rgba(255,255,255,.09);border-radius:13px;background:rgba(255,255,255,.025)}
-    .factor-no{width:48px;height:48px;display:grid;place-items:center;border-radius:50%;color:#071000;background:var(--green);font-weight:1000}
-    .factor p{margin:3px 0 0}
-
-    .work-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}
-    .work-card{min-height:245px;padding:29px;border:1px solid var(--line);border-radius:15px;background:linear-gradient(155deg,rgba(255,255,255,.05),rgba(255,255,255,.013))}
-    .work-card .marker{width:42px;height:42px;display:grid;place-items:center;margin-bottom:22px;border:1px solid rgba(141,255,0,.55);border-radius:8px;color:var(--green);background:var(--green-soft);font-weight:1000}
-    .work-card h3{font-size:1.3rem}
-    .work-card p{margin-bottom:0}
-
-    .nearby-panel{display:grid;grid-template-columns:1.08fr .92fr;overflow:hidden;border:1px solid rgba(141,255,0,.28);border-radius:20px;box-shadow:var(--shadow)}
-    .nearby-copy{padding:46px;background:linear-gradient(120deg,rgba(141,255,0,.075),transparent 42%),#101416}
-    .nearby-copy p{max-width:680px}
-    .nearby-side{display:grid;align-content:center;gap:13px;padding:38px;border-left:1px solid rgba(255,255,255,.08);background:repeating-linear-gradient(135deg,transparent 0 15px,rgba(255,255,255,.018) 15px 16px),#0d1113}
-    .nearby-point{padding:15px 16px;border:1px solid rgba(255,255,255,.1);border-radius:10px;background:rgba(255,255,255,.025);color:#dfe6e9;font-weight:800}
-    .nearby-point::before{content:"✓";margin-right:10px;color:var(--green)}
-
-    .faq-list{border-top:1px solid rgba(255,255,255,.12)}
-    details{border-bottom:1px solid rgba(255,255,255,.1)}
-    summary{position:relative;padding:22px 48px 22px 2px;color:#eef2f4;font-weight:850;cursor:pointer;list-style:none}
-    summary::-webkit-details-marker{display:none}
-    summary::after{content:"+";position:absolute;right:8px;top:18px;color:var(--green);font-size:1.45rem;font-weight:500}
-    details[open] summary::after{content:"–"}
-    details p{max-width:900px;margin-bottom:22px;padding-right:45px}
-
-    .contact-panel{position:relative;overflow:hidden;display:grid;grid-template-columns:1.08fr .92fr;gap:30px;align-items:center;padding:52px;border:1px solid rgba(141,255,0,.28);border-radius:20px;background:linear-gradient(135deg,rgba(141,255,0,.08),transparent 40%),#101416;box-shadow:var(--shadow)}
-    .contact-panel::after{content:"";position:absolute;right:-110px;top:-90px;width:360px;height:360px;border:1px solid rgba(141,255,0,.2);border-radius:50%;box-shadow:0 0 80px rgba(141,255,0,.06)}
-    .contact-links{position:relative;z-index:2;display:grid;gap:12px}
-    .contact-link{display:flex;align-items:center;gap:14px;padding:16px 17px;border:1px solid rgba(255,255,255,.1);border-radius:10px;background:rgba(255,255,255,.03);font-weight:850}
-    .contact-link:hover{border-color:rgba(141,255,0,.45);color:var(--green)}
-    .contact-link svg{width:22px;height:22px;color:var(--green)}
-
-    footer{padding:34px 0 90px;border-top:1px solid rgba(255,255,255,.08);background:#050708;color:#7f8b91;font-size:.79rem}
-    .footer-grid{display:grid;grid-template-columns:1fr auto;gap:30px;align-items:end}
-    .footer-brand{color:#bdc6ca;font-weight:800}
-    .footer-links{display:flex;flex-wrap:wrap;gap:16px;justify-content:flex-end}
-    .footer-links a:hover{color:var(--green)}
-    .mobile-actions{display:none}
-
-    @media(max-width:1000px){
-      .nav-links a:not(.call-pill){display:none}
-      .menu-btn{display:block}
-      .nav-links.open{position:absolute;left:18px;right:18px;top:calc(100% + 10px);display:grid;gap:0;padding:10px;border:1px solid var(--line);border-radius:12px;background:#0c1012;box-shadow:var(--shadow)}
-      .nav-links.open a:not(.call-pill){display:block;padding:14px 12px;border-bottom:1px solid rgba(255,255,255,.07)}
-      .nav-links.open .call-pill{margin-top:10px}
-      .hero-inner,.availability-grid,.nearby-panel,.contact-panel{grid-template-columns:1fr}
-      .hero-inner{min-height:auto}
-      .hero-panel{max-width:720px}
-      .availability-copy{position:static}
-      .nearby-side{border-left:0;border-top:1px solid rgba(255,255,255,.08)}
-      .work-grid{grid-template-columns:1fr}
+    .promo-panel {
+      display: block;
+      overflow: hidden;
+      border: 1px solid rgba(255,255,255,.12);
+      border-radius: 12px;
+      background: #0d1113;
+      box-shadow: none;
+    }
+    .promo-copy {
+      padding: 36px;
     }
 
-    @media(max-width:760px){
-      .section{padding:68px 0}
-      .brand-main{font-size:1.65rem}
-      .brand-sub{font-size:.52rem;letter-spacing:.17em}
-      .call-pill{display:none}
-      .hero-inner{padding-top:58px;gap:36px}
-      h1{font-size:clamp(3.1rem,15vw,5.25rem)}
-      .trust-grid,.county-grid{grid-template-columns:1fr}
-      .trust-item{border-right:0;border-bottom:1px solid rgba(255,255,255,.08)}
-      .trust-item:last-child{border-bottom:0}
-      .section-head{align-items:start;flex-direction:column}
-      .nearby-copy,.nearby-side{padding:30px 24px}
-      .contact-panel{padding:34px 24px}
-      .footer-grid{grid-template-columns:1fr}
-      .footer-links{justify-content:flex-start}
-      footer{padding-bottom:102px}
-      .mobile-actions{position:fixed;left:12px;right:12px;bottom:12px;z-index:120;display:grid;grid-template-columns:1fr 1fr;gap:8px;padding:8px;border:1px solid rgba(255,255,255,.13);border-radius:13px;background:rgba(8,10,11,.94);backdrop-filter:blur(14px);box-shadow:0 14px 40px rgba(0,0,0,.5)}
-      .mobile-actions a{min-height:48px;display:grid;place-items:center;border-radius:8px;font-weight:900}
-      .mobile-actions .m-call{color:#071000;background:var(--green)}
-      .mobile-actions .m-text{border:1px solid rgba(141,255,0,.45);color:var(--green)}
+    .terms-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 15px;
+    }
+    .term-card {
+      padding: 28px;
+      border: 1px solid var(--line);
+      border-top: 3px solid var(--green);
+      border-radius: 14px;
+      background: linear-gradient(165deg, rgba(255,255,255,.05), rgba(255,255,255,.014));
+    }
+    .term-card h3 {
+      color: var(--silver);
+      font-family: "Arial Narrow", Impact, sans-serif;
+      font-size: 1.9rem;
+      font-style: italic;
+      text-transform: uppercase;
+    }
+    .term-card p { margin-bottom: 0; font-size: .93rem; }
+
+    .repair-policy {
+      margin-top: 16px;
+      padding: 25px 28px;
+      border: 1px solid rgba(255,255,255,.1);
+      border-radius: 14px;
+      background: rgba(255,255,255,.025);
+    }
+    .repair-policy strong { color: white; }
+    .repair-policy p { margin: 4px 0 0; font-size: .9rem; }
+
+    .promise-grid {
+      display: grid;
+      grid-template-columns: .8fr 1.2fr;
+      gap: 55px;
+      align-items: start;
+    }
+    .promise-intro {
+      max-width: 500px;
+      margin: 18px 0 0;
+      color: #b8c2c7;
+      font-size: 1rem;
+      line-height: 1.7;
+    }
+    .promise-stack {
+      display: grid;
+      gap: 12px;
+    }
+    .promise-row {
+      display: grid;
+      grid-template-columns: 43px 1fr;
+      gap: 15px;
+      align-items: start;
+      padding: 20px;
+      border: 1px solid rgba(255,255,255,.09);
+      border-radius: 12px;
+      background: rgba(255,255,255,.025);
+    }
+    .promise-row .dot {
+      width: 43px;
+      height: 43px;
+      display: grid;
+      place-items: center;
+      border-radius: 50%;
+      color: #071000;
+      background: var(--green);
+      font-weight: 1000;
+    }
+    .promise-row p { margin: 3px 0 0; font-size: .9rem; }
+
+
+
+    .mechanic-section {
+      border-bottom: 1px solid rgba(255,255,255,.07);
+      background: #090c0e;
+    }
+    .mechanic-panel {
+      display: grid;
+      grid-template-columns: 190px minmax(0, 1fr) auto;
+      gap: 30px;
+      align-items: center;
+      padding: 32px 34px;
+      border: 1px solid rgba(141,255,0,.28);
+      border-left: 4px solid var(--green);
+      border-radius: 16px;
+      background:
+        linear-gradient(110deg, rgba(141,255,0,.075), transparent 34%),
+        linear-gradient(160deg, rgba(255,255,255,.045), rgba(255,255,255,.012));
+      box-shadow: 0 16px 42px rgba(0,0,0,.24);
+    }
+    .mechanic-label {
+      color: var(--green);
+      font-size: .76rem;
+      font-weight: 900;
+      letter-spacing: .15em;
+      line-height: 1.4;
+      text-transform: uppercase;
+    }
+    .mechanic-copy h2 {
+      margin-bottom: 9px;
+      font-size: clamp(1.9rem, 3.1vw, 3rem);
+    }
+    .mechanic-copy p { margin-bottom: 0; max-width: 760px; }
+    .mechanic-actions { display: grid; gap: 9px; min-width: 150px; }
+    .mechanic-actions a { white-space: nowrap; }
+
+    .area-grid {
+      display: grid;
+      grid-template-columns: 1.05fr .95fr;
+      gap: 18px;
+    }
+    .area-card {
+      min-height: 310px;
+      padding: 34px;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      background: linear-gradient(150deg, rgba(255,255,255,.055), rgba(255,255,255,.015));
+    }
+    .county-list {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 10px;
+      margin-top: 22px;
+    }
+    .county-list span {
+      padding: 12px 13px;
+      border: 1px solid rgba(141,255,0,.19);
+      border-radius: 8px;
+      color: #dfe6e8;
+      background: rgba(141,255,0,.035);
+      font-weight: 800;
     }
 
-    @media(max-width:480px){
-      .wrap{width:min(var(--max),calc(100% - 26px))}
-      .promo-strip .wrap{font-size:.74rem}
-      .nav-inner{min-height:70px}
-      .brand{min-width:0}
-      .hero-actions{display:grid}
-      .hero-actions a{width:100%}
-      .county-quick{grid-template-columns:1fr}
-      .contact-link{font-size:.91rem}
+    .faq-list { border-top: 1px solid rgba(255,255,255,.12); }
+    details { border-bottom: 1px solid rgba(255,255,255,.1); }
+    summary {
+      position: relative;
+      padding: 22px 48px 22px 2px;
+      color: #eef2f4;
+      font-weight: 850;
+      cursor: pointer;
+      list-style: none;
+    }
+    summary::-webkit-details-marker { display: none; }
+    summary::after {
+      content: "+";
+      position: absolute;
+      right: 8px;
+      top: 18px;
+      color: var(--green);
+      font-size: 1.45rem;
+      font-weight: 500;
+    }
+    details[open] summary::after { content: "–"; }
+    details p { max-width: 880px; margin-bottom: 22px; padding-right: 45px; }
+
+    .contact-panel {
+      position: relative;
+      overflow: hidden;
+      display: grid;
+      grid-template-columns: 1.08fr .92fr;
+      gap: 30px;
+      align-items: center;
+      padding: 52px;
+      border: 1px solid rgba(141,255,0,.28);
+      border-radius: 20px;
+      background:
+        linear-gradient(135deg, rgba(141,255,0,.08), transparent 40%),
+        #101416;
+      box-shadow: var(--shadow);
+    }
+    .contact-panel::after {
+      content: "";
+      position: absolute;
+      right: -110px;
+      top: -90px;
+      width: 360px;
+      height: 360px;
+      border: 1px solid rgba(141,255,0,.2);
+      border-radius: 50%;
+      box-shadow: none;
+    }
+    .contact-links { position: relative; z-index: 2; display: grid; gap: 12px; }
+    .contact-link {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      padding: 16px 17px;
+      border: 1px solid rgba(255,255,255,.1);
+      border-radius: 10px;
+      background: rgba(255,255,255,.03);
+      font-weight: 850;
+    }
+    .contact-link:hover { border-color: rgba(141,255,0,.45); color: var(--green); }
+    .contact-link svg { width: 22px; height: 22px; color: var(--green); }
+
+    footer {
+      padding: 34px 0 90px;
+      border-top: 1px solid rgba(255,255,255,.08);
+      background: #050708;
+      color: #7f8b91;
+      font-size: .79rem;
+    }
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 30px;
+      align-items: end;
+    }
+    .footer-brand { color: #bdc6ca; font-weight: 800; }
+    .footer-links { display: flex; flex-wrap: wrap; gap: 16px; justify-content: flex-end; }
+    .footer-links a:hover { color: var(--green); }
+
+    .mobile-actions { display: none; }
+
+    .affordability-note {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 34px;
+      align-items: center;
+      margin-top: 28px;
+      padding: 30px 0;
+      border-top: 1px solid rgba(255,255,255,.14);
+      border-bottom: 1px solid rgba(255,255,255,.14);
+    }
+    .affordability-note h3 { font-size: clamp(1.45rem, 2.4vw, 2rem); margin: 0 0 9px; color: #fff; }
+    .affordability-note p { margin: 0; max-width: 800px; }
+    .affordability-actions { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 10px; }
+
+    @media (max-width: 1000px) {
+      .nav-links a:not(.call-pill) { display: none; }
+      .menu-btn { display: block; }
+      .nav-links.open {
+        position: absolute;
+        left: 18px;
+        right: 18px;
+        top: calc(100% + 10px);
+        display: grid;
+        gap: 0;
+        padding: 10px;
+        border: 1px solid var(--line);
+        border-radius: 12px;
+        background: #0c1012;
+        box-shadow: var(--shadow);
+      }
+      .nav-links.open a:not(.call-pill) {
+        display: block;
+        padding: 14px 12px;
+        border-bottom: 1px solid rgba(255,255,255,.07);
+      }
+      .nav-links.open .call-pill { margin-top: 10px; }
+      .hero-grid { grid-template-columns: 1fr; min-height: auto; padding-top: 72px; }
+      .hero-card { max-width: 660px; }
+      .service-grid { grid-template-columns: repeat(2, 1fr); }
+      .steps { grid-template-columns: repeat(2, 1fr); }
+      .promo-panel, .promise-grid, .contact-panel { grid-template-columns: 1fr; }
+      .mechanic-panel { grid-template-columns: 1fr; align-items: start; }
+      .mechanic-actions { display: flex; flex-wrap: wrap; min-width: 0; }
+      .area-grid { grid-template-columns: 1fr; }
     }
 
-    @media(prefers-reduced-motion:reduce){
-      html{scroll-behavior:auto}
-      *,*::before,*::after{transition:none!important;animation:none!important}
+    @media (max-width: 760px) {
+      .hero-facts { grid-template-columns: 1fr; }
+      .hero-fact, .hero-fact + .hero-fact { padding: 14px 0; border-right: 0; border-bottom: 1px solid rgba(255,255,255,.09); }
+      .hero-fact:last-child { border-bottom: 0; }
+      .affordability-note { grid-template-columns: 1fr; gap: 20px; }
+      .affordability-actions { justify-content:flex-start; }
+      .section { padding: 68px 0; }
+      .brand-main { font-size: 1.3rem; }
+      .brand-sub { font-size: .52rem; letter-spacing: .17em; }
+      .call-pill { display: none; }
+      .hero-grid { padding-top: 58px; gap: 38px; }
+      h1 { font-size: clamp(2.55rem, 12vw, 4rem); }
+      .trust-grid { grid-template-columns: 1fr; }
+      .trust-item { border-right: 0; border-bottom: 1px solid rgba(255,255,255,.08); }
+      .trust-item:last-child { border-bottom: 0; }
+      .section-head { align-items: start; flex-direction: column; }
+      .steps, .service-grid, .terms-grid { grid-template-columns: 1fr; }
+      .promo-copy { padding: 34px 24px; }
+      .area-card { padding: 26px 22px; }
+      .contact-panel { padding: 34px 24px; }
+      .mechanic-panel { padding: 26px 22px; gap: 20px; }
+      .mechanic-actions { display: grid; grid-template-columns: 1fr 1fr; width: 100%; }
+      .footer-grid { grid-template-columns: 1fr; }
+      .footer-links { justify-content: flex-start; }
+      footer { padding-bottom: 102px; }
+      .mobile-actions {
+        position: fixed;
+        left: 12px;
+        right: 12px;
+        bottom: 12px;
+        z-index: 120;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 8px;
+        padding: 8px;
+        border: 1px solid rgba(255,255,255,.13);
+        border-radius: 13px;
+        background: rgba(8,10,11,.94);
+        backdrop-filter: blur(14px);
+        box-shadow: 0 14px 40px rgba(0,0,0,.5);
+      }
+      .mobile-actions a {
+        min-height: 48px;
+        display: grid;
+        place-items: center;
+        border-radius: 8px;
+        font-weight: 900;
+      }
+      .mobile-actions .m-call { color: #071000; background: var(--green); }
+      .mobile-actions .m-text { border: 1px solid rgba(141,255,0,.45); color: var(--green); }
     }
-  </style>
-</head>
-<body>
-  <svg width="0" height="0" aria-hidden="true" focusable="false" style="position:absolute">
-    <symbol id="i-phone" viewBox="0 0 24 24"><path d="M7.2 3h3l1.1 4.2-2 1.3a15.6 15.6 0 0 0 6.2 6.2l1.3-2L21 13.8v3c0 2.3-1.9 4.2-4.2 4.2C9.2 21 3 14.8 3 7.2 3 4.9 4.9 3 7.2 3Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
-    <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="m4 7 8 6 8-6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></symbol>
-    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s7-6.1 7-12A7 7 0 1 0 5 9c0 5.9 7 12 7 12Z" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="9" r="2.3" fill="none" stroke="currentColor" stroke-width="1.8"/></symbol>
-    <symbol id="i-car" viewBox="0 0 24 24"><path d="M4 14h16l-1.8-5.2A2.7 2.7 0 0 0 15.7 7H8.3a2.7 2.7 0 0 0-2.5 1.8L4 14Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M3 14v4h2v2h3v-2h8v2h3v-2h2v-4M7 14v.1M17 14v.1" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
-    <symbol id="i-wrench" viewBox="0 0 24 24"><path d="M14.7 6.3a4.2 4.2 0 0 0-5.3 5.3L3.5 17.5a2.1 2.1 0 1 0 3 3l5.9-5.9a4.2 4.2 0 0 0 5.3-5.3l-2.3 2.3-3-3 2.3-2.3Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
-  </svg>
 
-  <div class="promo-strip">
-    <div class="wrap"><strong>New Customer Offer:</strong> 25% off labor on your first completed repair.</div>
-  </div>
+    @media (max-width: 480px) {
+      .wrap { width: min(var(--max), calc(100% - 26px)); }
+      .promo-strip .wrap { font-size: .74rem; }
+      .nav-inner { min-height: 70px; }
+      .brand { min-width: 0; }
+      .hero-actions { display: grid; }
+      .hero-actions a { width: 100%; }
+      .hero-card-head, .hero-services { padding-left: 18px; padding-right: 18px; }
+      .offer { margin-left: 14px; margin-right: 14px; }
+      .county-list { grid-template-columns: 1fr; }
+    }
 
-  <nav class="site-nav" aria-label="Primary navigation">
-    <div class="wrap nav-inner">
-      <a class="brand" href="index.html" aria-label="Shawnee Auto Repair home">
-        <span class="brand-main">Shawnee <span>Auto Repair</span></span>
-        <span class="brand-sub">Diagnostics • Repair • Installation</span>
-      </a>
-      <div class="nav-links" id="navLinks">
-        <a href="index.html">Home</a>
-        <a href="services.html">Services</a>
-        <a href="about.html">Why Shawnee</a>
-        <a href="pricing.html">Pricing</a>
-        <a href="service-area.html" aria-current="page">Service Area</a>
-        <a class="call-pill" href="tel:+17732700744">Call (773) 270-0744</a>
-      </div>
-      <button class="menu-btn" id="menuBtn" type="button" aria-expanded="false" aria-controls="navLinks" aria-label="Open menu"><span></span></button>
-    </div>
-  </nav>
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      *, *::before, *::after { transition: none !important; animation: none !important; }
+    }
 
-  <main id="top">
-    <header class="page-hero">
-      <div class="wrap hero-inner">
-        <div class="hero-copy">
-          <div class="eyebrow">Southern Illinois Service Area</div>
-          <h1>Local service.<br><span class="green">Southern Illinois.</span></h1>
-          <p class="lead">Our primary service area covers Saline, Williamson, Franklin and Hamilton counties. If you are nearby but outside those four counties, send us your location anyway — availability depends on the job, distance and schedule.</p>
-          <div class="hero-actions">
-            <a class="btn-primary" href="sms:+17732700744">Text Your Location</a>
-            <a class="btn-secondary" href="tel:+17732700744"><svg width="20" height="20" aria-hidden="true"><use href="#i-phone"></use></svg> Call (773) 270-0744</a>
-          </div>
-        </div>
 
-        <aside class="hero-panel" aria-label="Primary counties">
-          <div class="hero-panel-head"><strong>Primary Coverage</strong></div>
-          <div class="county-quick">
-            <a href="#saline">Saline County</a>
-            <a href="#williamson">Williamson County</a>
-            <a href="#franklin">Franklin County</a>
-            <a href="#hamilton">Hamilton County</a>
-          </div>
-          <div class="hero-note"><strong>Outside the core area?</strong> Gallatin County and other nearby Southern Illinois communities may still be available by request. Send the vehicle location and what you need.</div>
-        </aside>
-      </div>
-    </header>
-
-    <section class="trust-rail" aria-label="Service area principles">
-      <div class="wrap trust-grid">
-        <div class="trust-item"><div class="trust-icon"><svg aria-hidden="true"><use href="#i-pin"></use></svg></div><div><strong>Four primary counties</strong><span>Saline, Williamson, Franklin and Hamilton.</span></div></div>
-        <div class="trust-item"><div class="trust-icon"><svg aria-hidden="true"><use href="#i-car"></use></svg></div><div><strong>On-site when practical</strong><span>Home or workplace service when the repair and location make sense.</span></div></div>
-        <div class="trust-item"><div class="trust-icon"><svg aria-hidden="true"><use href="#i-wrench"></use></svg></div><div><strong>Nearby? Ask anyway.</strong><span>Being outside the list is not automatically a no.</span></div></div>
-      </div>
-    </section>
-
-    <section class="section" id="counties">
-      <div class="wrap">
-        <div class="section-head">
-          <div>
-            <div class="eyebrow">Primary service area</div>
-            <h2>Four counties. <span class="green">A lot of small towns.</span></h2>
-          </div>
-          <p>The communities below are examples, not a boundary-by-boundary promise or a complete list. Rural addresses and unincorporated areas within the primary counties are welcome to ask too.</p>
-        </div>
-
-        <div class="county-grid">
-          <article class="county-card" id="saline" data-abbr="SA">
-            <h3>Saline County</h3>
-            <p>A core Shawnee service area, including Harrisburg and the surrounding Saline County communities.</p>
-            <div class="towns">
-              <span>Harrisburg</span><span>Eldorado</span><span>Galatia</span><span>Carrier Mills</span><span>Raleigh</span><span>Stonefort</span><span>Muddy</span>
-            </div>
-            <div class="county-foot">Examples only — other Saline County addresses may also be served.</div>
-          </article>
-
-          <article class="county-card" id="williamson" data-abbr="WI">
-            <h3>Williamson County</h3>
-            <p>Service requests are welcome from the Marion/Herrin/Carterville area and communities throughout Williamson County.</p>
-            <div class="towns">
-              <span>Marion</span><span>Herrin</span><span>Carterville</span><span>Johnston City</span><span>Energy</span><span>Crainville</span><span>Creal Springs</span><span>Cambria</span>
-            </div>
-            <div class="county-foot">Examples only — other Williamson County addresses may also be served.</div>
-          </article>
-
-          <article class="county-card" id="franklin" data-abbr="FR">
-            <h3>Franklin County</h3>
-            <p>Franklin County requests are considered across the Benton/West Frankfort area and surrounding communities.</p>
-            <div class="towns">
-              <span>Benton</span><span>West Frankfort</span><span>Christopher</span><span>Sesser</span><span>Zeigler</span><span>Thompsonville</span><span>Royalton</span><span>West City</span>
-            </div>
-            <div class="county-foot">Examples only — other Franklin County addresses may also be served.</div>
-          </article>
-
-          <article class="county-card" id="hamilton" data-abbr="HA">
-            <h3>Hamilton County</h3>
-            <p>Hamilton County is part of the primary service area, including McLeansboro and nearby communities.</p>
-            <div class="towns">
-              <span>McLeansboro</span><span>Dahlgren</span><span>Broughton</span><span>Belle Prairie City</span><span>Dale area</span>
-            </div>
-            <div class="county-foot">Examples only — rural and other Hamilton County addresses may also be served.</div>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="section dark-section" id="availability">
-      <div class="wrap availability-grid">
-        <div class="availability-copy">
-          <div class="eyebrow">What determines availability</div>
-          <h2>Your address is only <span class="green">part of the answer.</span></h2>
-          <p>The same town can be an easy yes for one job and a poor fit for another. We look at what the vehicle needs, where it is sitting and what it will take to do the work correctly.</p>
-        </div>
-        <div class="factor-list">
-          <div class="factor"><div class="factor-no">1</div><div><h3>Exact location</h3><p>Send the town or address area so we can judge distance and route realistically.</p></div></div>
-          <div class="factor"><div class="factor-no">2</div><div><h3>The repair itself</h3><p>A battery, electrical diagnosis or common repair may make sense on-site. A job needing extended teardown, more equipment or controlled conditions may not.</p></div></div>
-          <div class="factor"><div class="factor-no">3</div><div><h3>A safe place to work</h3><p>On-site service needs a reasonably level, accessible and safe work area with permission to perform the repair there.</p></div></div>
-          <div class="factor"><div class="factor-no">4</div><div><h3>Schedule and route</h3><p>Nearby jobs may be easier to accommodate when they fit an existing route or appointment window. We will tell you what is realistic before scheduling.</p></div></div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section" id="work-location">
-      <div class="wrap">
-        <div class="section-head">
-          <div>
-            <div class="eyebrow">Where the repair happens</div>
-            <h2>Mobile when it makes sense. <span class="green">Repair location when it doesn’t.</span></h2>
-          </div>
-          <p>The goal is not to force every repair into a driveway. We choose the setting that gives the job the best chance of being done safely and correctly.</p>
-        </div>
-        <div class="work-grid">
-          <article class="work-card"><div class="marker">01</div><h3>Home or Workplace</h3><p>On-site service may be available when the location is safe, accessible and the repair can reasonably be completed there.</p></article>
-          <article class="work-card"><div class="marker">02</div><h3>Repair Location</h3><p>Larger, longer or more involved work can be scheduled at our repair location when the job needs additional space, equipment, time or teardown.</p></article>
-          <article class="work-card"><div class="marker">03</div><h3>Not 24/7 Roadside Service</h3><p>On-site repair is scheduled service. It should not be confused with emergency roadside assistance or towing. If transport is needed, the options are discussed before anything moves.</p></article>
-        </div>
-      </div>
-    </section>
-
-    <section class="section-tight dark-section" id="nearby">
-      <div class="wrap">
-        <div class="nearby-panel">
-          <div class="nearby-copy">
-            <div class="eyebrow">Outside the primary counties?</div>
-            <h2>Send the location <span class="green">before assuming no.</span></h2>
-            <p>Gallatin County and other nearby Southern Illinois locations may be possible depending on distance, the repair and the schedule. We would rather look at the actual situation than turn someone away because a county line is a few miles in the wrong direction.</p>
-            <div class="hero-actions">
-              <a class="btn-primary" href="sms:+17732700744">Text Your Town &amp; Repair</a>
-              <a class="btn-secondary" href="tel:+17732700744">Call Shawnee</a>
-            </div>
-          </div>
-          <div class="nearby-side">
-            <div class="nearby-point">Gallatin County considered by request</div>
-            <div class="nearby-point">Other nearby communities considered case by case</div>
-            <div class="nearby-point">Rural addresses are welcome to ask</div>
-            <div class="nearby-point">We confirm the plan before putting you on the schedule</div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section" id="faq">
-      <div class="wrap">
-        <div class="section-head">
-          <div><div class="eyebrow">Service area questions</div><h2>Before you <span class="green">send the address.</span></h2></div>
-        </div>
-        <div class="faq-list">
-          <details><summary>My town is not listed. Does that mean you do not serve it?</summary><p>No. The town list is there to show the general area, not to exclude every community that is not named. Send your location and what the vehicle needs and we can tell you whether it is workable.</p></details>
-          <details><summary>Do you come to homes and workplaces?</summary><p>When the repair and location make sense, yes. The work area needs to be reasonably safe and accessible, and the property owner or responsible party must allow the repair to be performed there.</p></details>
-          <details><summary>Do you work at rural addresses?</summary><p>Rural locations are considered just like town addresses. Accessibility, the condition of the work area, distance and the type of repair all matter.</p></details>
-          <details><summary>Will you come to me for a large repair?</summary><p>Not always. Larger or more involved repairs may need to be performed at our repair location because of equipment, teardown time, safety or working conditions.</p></details>
-          <details><summary>Do you provide emergency roadside assistance?</summary><p>Shawnee Auto Repair advertises scheduled on-site repair, not 24/7 emergency roadside service. If the vehicle cannot be moved, contact us with the situation and we can tell you what options make sense.</p></details>
-          <details><summary>Can you inspect a vehicle where a seller has it?</summary><p>Potentially. Pre-purchase inspections away from our repair location depend on the seller/location allowing the inspection and whether the setting is suitable for the level of inspection requested.</p></details>
-        </div>
-      </div>
-    </section>
-
-    <section class="section dark-section" id="contact">
-      <div class="wrap">
-        <div class="contact-panel">
-          <div>
-            <div class="eyebrow">Check your location</div>
-            <h2>Send the town, the vehicle and <span class="green">what is going on.</span></h2>
-            <p class="lead">For the fastest answer, text the year, make, model, vehicle location and what you need done. We can tell you whether on-site service, the repair location or another option makes the most sense.</p>
-          </div>
-          <div class="contact-links">
-            <a class="contact-link" href="tel:+17732700744"><svg aria-hidden="true"><use href="#i-phone"></use></svg><span>(773) 270-0744</span></a>
-            <a class="contact-link" href="sms:+17732700744"><svg aria-hidden="true"><use href="#i-pin"></use></svg><span>Text Your Location</span></a>
-            <a class="contact-link" href="mailto:shawneerepairco@gmail.com"><svg aria-hidden="true"><use href="#i-mail"></use></svg><span>shawneerepairco@gmail.com</span></a>
-          </div>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <footer>
-    <div class="wrap footer-grid">
-      <div>
-        <div class="footer-brand">Shawnee Auto Repair • Southern Illinois</div>
-        <div>Primary service area: Saline • Williamson • Franklin • Hamilton counties</div>
-        <div>© <span id="year"></span> Shawnee Auto Repair. All rights reserved.</div>
-      </div>
-      <div class="footer-links">
-        <a href="index.html">Home</a>
-        <a href="services.html">Services</a>
-        <a href="about.html">Why Shawnee</a>
-        <a href="pricing.html">Pricing &amp; Policies</a>
-        <a href="#top">Service Area</a>
-        <a href="#contact">Contact</a>
-      </div>
-    </div>
-  </footer>
-
-  <div class="mobile-actions" aria-label="Quick contact">
-    <a class="m-call" href="tel:+17732700744">Call</a>
-    <a class="m-text" href="sms:+17732700744">Text</a>
-  </div>
-
-  <script>
-    const menuBtn=document.getElementById('menuBtn');
-    const navLinks=document.getElementById('navLinks');
-    menuBtn?.addEventListener('click',()=>{
-      const open=navLinks.classList.toggle('open');
-      menuBtn.setAttribute('aria-expanded',String(open));
-      menuBtn.setAttribute('aria-label',open?'Close menu':'Open menu');
-    });
-    navLinks?.querySelectorAll('a').forEach(link=>{
-      link.addEventListener('click',()=>{
-        navLinks.classList.remove('open');
-        menuBtn?.setAttribute('aria-expanded','false');
-        menuBtn?.setAttribute('aria-label','Open menu');
-      });
-    });
-    document.getElementById('year').textContent=new Date().getFullYear();
-  </script>
-</body>
-</html>
+/* Service Area page */
+.page-hero{border-bottom:1px solid var(--line);background:#0b0e10}
+.page-hero .wrap{padding:70px 0 62px}
+.page-hero h1{max-width:780px;margin-bottom:16px;font-size:clamp(2.7rem,6vw,5rem);line-height:.98}
+.page-hero .lead{max-width:780px;font-size:1.08rem;color:#bcc6cb}
+.page-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:26px}
+.coverage-strip{border-bottom:1px solid var(--line);background:#0e1214}
+.coverage-grid{display:grid;grid-template-columns:repeat(3,1fr)}
+.coverage-item{padding:24px 26px;border-right:1px solid var(--line)}
+.coverage-item:last-child{border-right:0}.coverage-item strong{display:block;color:#fff}.coverage-item span{display:block;margin-top:3px;color:var(--muted);font-size:.9rem}
+.county-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}.county-card{padding:28px;border:1px solid var(--line);border-radius:10px;background:#101416}.county-card h3{margin-bottom:8px;font-size:1.35rem}.county-card p{margin-bottom:17px}.towns{display:flex;flex-wrap:wrap;gap:8px}.towns span{padding:7px 9px;border:1px solid rgba(255,255,255,.12);border-radius:6px;color:#d8dfe2;background:#0b0e10;font-size:.84rem}.county-foot{margin-top:16px;color:#89949a;font-size:.82rem}
+.availability-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:46px;align-items:start}.availability-copy{position:sticky;top:110px}.factor-list{display:grid;gap:12px}.factor{display:grid;grid-template-columns:40px 1fr;gap:15px;padding:20px;border-top:1px solid var(--line)}.factor:first-child{border-top:0}.factor-no{width:40px;height:40px;display:grid;place-items:center;border:1px solid rgba(141,255,0,.4);border-radius:6px;color:var(--green);font-weight:800}.factor p{margin:3px 0 0}
+.work-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.work-card{padding:25px;border:1px solid var(--line);border-radius:10px;background:#101416}.work-card .marker{margin-bottom:18px;color:var(--green);font-size:.78rem;font-weight:800;letter-spacing:.08em}.work-card p{margin-bottom:0}
+.nearby-panel{display:grid;grid-template-columns:1.1fr .9fr;border:1px solid var(--line);border-radius:10px;overflow:hidden;background:#101416}.nearby-copy{padding:34px}.nearby-side{padding:28px;border-left:1px solid var(--line);background:#0d1113}.nearby-point{padding:13px 0;border-bottom:1px solid rgba(255,255,255,.08);color:#d6dde0}.nearby-point:last-child{border-bottom:0}
+.service-faq{border-top:1px solid var(--line)}.service-faq details{border-bottom:1px solid var(--line)}.service-faq summary{padding:20px 40px 20px 0;cursor:pointer;color:#eef2f4;font-weight:750}.service-faq p{max-width:900px;margin:0 0 20px}
+.contact-panel .phone-note{margin-top:14px;color:#89949a;font-size:.82rem}
+@media(max-width:900px){.coverage-grid,.county-grid,.work-grid{grid-template-columns:1fr}.coverage-item{border-right:0;border-bottom:1px solid var(--line)}.coverage-item:last-child{border-bottom:0}.availability-grid,.nearby-panel{grid-template-columns:1fr}.availability-copy{position:static}.nearby-side{border-left:0;border-top:1px solid var(--line)}}
+@media(max-width:600px){.page-hero .wrap{padding:50px 0 44px}.page-actions{display:grid}.page-actions a{width:100%}.county-card,.nearby-copy,.nearby-side{padding:22px}.factor{grid-template-columns:34px 1fr;padding:17px 0}.factor-no{width:34px;height:34px}}
+</style></head><body><nav aria-label="Primary navigation" class="site-nav">
+<div class="wrap nav-inner">
+<a aria-label="Shawnee Auto Repair home" class="brand" href="index.html">
+<span class="brand-main">Shawnee <span>Auto Repair</span></span>
+<span class="brand-sub">Diagnostics • Repair • Installation</span>
+</a>
+<div class="nav-links" id="navLinks"><a href="index.html">Home</a><a href="services.html">Services</a><a href="about.html">Why Shawnee</a><a href="pricing.html">Pricing</a><a aria-current="page" href="service-area.html">Service Area</a><a href="contact.html">Contact</a><a class="call-pill" href="tel:+17732700744">Call (773) 270-0744</a></div>
+<button aria-controls="navLinks" aria-expanded="false" aria-label="Open menu" class="menu-btn" id="menuBtn" type="button"><span></span></button>
+</div>
+</nav><main id="top">
+<header class="page-hero"><div class="wrap"><div class="eyebrow">Southern Illinois Service Area</div><h1>Where Shawnee Auto Repair serves.</h1><p class="lead">Our primary service area covers Saline, Williamson, Franklin and Hamilton counties. If you are nearby but outside those four counties, send the location anyway — availability depends on the job, distance and schedule.</p><div class="page-actions"><a class="btn-primary" href="sms:+17732700744?body=Hi%20Shawnee%20Auto%20Repair%20-%20I%27d%20like%20an%20estimate.%0AVehicle%20year%2C%20make%2C%20model%3A%0ALocation%3A%0AProblem%3A">Text Your Location &amp; Repair</a><a class="btn-secondary" href="tel:+17732700744">Call (773) 270-0744</a><a class="btn-secondary" href="contact.html">Request Service</a></div></div></header>
+<section class="coverage-strip"><div class="wrap coverage-grid"><div class="coverage-item"><strong>Four primary counties</strong><span>Saline, Williamson, Franklin and Hamilton.</span></div><div class="coverage-item"><strong>On-site when practical</strong><span>Home or workplace service when the repair and location make sense.</span></div><div class="coverage-item"><strong>Nearby? Ask anyway.</strong><span>Being outside the core area is not automatically a no.</span></div></div></section>
+<section class="section" id="counties"><div class="wrap"><div class="section-head"><div><div class="eyebrow">Primary coverage</div><h2>Four counties. A lot of small towns.</h2></div><p>The town names below are examples, not a boundary-by-boundary promise or a complete list. Rural addresses and unincorporated areas within the primary counties are welcome to ask too.</p></div><div class="county-grid"><article class="county-card"><h3>Saline County</h3><p>A core Shawnee service area, including Harrisburg and surrounding communities.</p><div class="towns"><span>Harrisburg</span><span>Eldorado</span><span>Galatia</span><span>Carrier Mills</span><span>Raleigh</span><span>Stonefort</span><span>Muddy</span></div><div class="county-foot">Examples only — other Saline County addresses, including rural locations, may also be served.</div></article><article class="county-card"><h3>Williamson County</h3><p>Service requests are welcome throughout the Marion, Herrin and Carterville area.</p><div class="towns"><span>Marion</span><span>Herrin</span><span>Carterville</span><span>Johnston City</span><span>Energy</span><span>Crainville</span><span>Creal Springs</span><span>Cambria</span></div><div class="county-foot">Examples only — other Williamson County addresses, including rural locations, may also be served.</div></article><article class="county-card"><h3>Franklin County</h3><p>Franklin County requests are considered across the Benton and West Frankfort area and surrounding communities.</p><div class="towns"><span>Benton</span><span>West Frankfort</span><span>Christopher</span><span>Sesser</span><span>Zeigler</span><span>Thompsonville</span><span>Royalton</span><span>West City</span></div><div class="county-foot">Examples only — other Franklin County addresses, including rural locations, may also be served.</div></article><article class="county-card"><h3>Hamilton County</h3><p>Hamilton County is part of the primary service area, including McLeansboro and nearby communities.</p><div class="towns"><span>McLeansboro</span><span>Dahlgren</span><span>Broughton</span><span>Belle Prairie City</span><span>Dale area</span></div><div class="county-foot">Examples only — other Hamilton County addresses, including rural locations, may also be served.</div></article></div></div></section>
+<section class="section services-section" id="availability"><div class="wrap availability-grid"><div class="availability-copy"><div class="eyebrow">What determines availability</div><h2>Your address is only part of the answer.</h2><p>The same town can be an easy yes for one job and a poor fit for another. We look at what the vehicle needs, where it is sitting and what it will take to do the work correctly.</p></div><div class="factor-list"><div class="factor"><div class="factor-no">1</div><div><h3>Exact location</h3><p>Send the town or address area so we can judge distance and route realistically.</p></div></div><div class="factor"><div class="factor-no">2</div><div><h3>The repair itself</h3><p>A battery, electrical diagnosis or common repair may make sense on-site. A job needing extended teardown, more equipment or controlled conditions may not.</p></div></div><div class="factor"><div class="factor-no">3</div><div><h3>A safe place to work</h3><p>On-site service needs a reasonably level, accessible and safe work area with permission to perform the repair there.</p></div></div><div class="factor"><div class="factor-no">4</div><div><h3>Schedule and route</h3><p>Nearby jobs may be easier to accommodate when they fit the current route or appointment schedule. We will tell you what is realistic before scheduling.</p></div></div></div></div></section>
+<section class="section" id="work-location"><div class="wrap"><div class="section-head"><div><div class="eyebrow">Where the repair happens</div><h2>On-site when it makes sense. Repair location when it doesn’t.</h2></div><p>The goal is not to force every repair into a driveway. The setting should give the job the best chance of being done safely and correctly.</p></div><div class="work-grid"><article class="work-card"><div class="marker">01</div><h3>Home or Workplace</h3><p>On-site service may be available when the location is safe, accessible and the repair can reasonably be completed there.</p></article><article class="work-card"><div class="marker">02</div><h3>Repair Location</h3><p>Larger, longer or more involved work can be scheduled at our repair location when the job needs additional space, equipment, time or teardown.</p></article><article class="work-card"><div class="marker">03</div><h3>Not 24/7 Roadside Service</h3><p>On-site repair is scheduled service. It is not emergency roadside assistance or towing. If the vehicle cannot be moved safely, tell us before moving it.</p></article></div></div></section>
+<section class="section services-section" id="nearby"><div class="wrap nearby-panel"><div class="nearby-copy"><div class="eyebrow">Outside the primary counties?</div><h2>Send the location before assuming no.</h2><p>Gallatin County and other nearby Southern Illinois locations may be possible depending on distance, the repair and the schedule. We would rather look at the actual situation than turn someone away because a county line is a few miles in the wrong direction.</p><div class="page-actions"><a class="btn-primary" href="sms:+17732700744?body=Hi%20Shawnee%20Auto%20Repair%20-%20I%27d%20like%20an%20estimate.%0AVehicle%20year%2C%20make%2C%20model%3A%0ALocation%3A%0AProblem%3A">Text Your Town &amp; Repair</a><a class="btn-secondary" href="contact.html">Contact Shawnee</a></div></div><div class="nearby-side"><div class="nearby-point">Gallatin County considered by request</div><div class="nearby-point">Other nearby communities considered case by case</div><div class="nearby-point">Rural addresses are welcome to ask</div><div class="nearby-point">The plan is confirmed before you are put on the schedule</div></div></div></section>
+<section class="section" id="faq"><div class="wrap"><div class="section-head"><div><div class="eyebrow">Service area questions</div><h2>Before you send the address.</h2></div></div><div class="service-faq"><details><summary>My town is not listed. Does that mean you do not serve it?</summary><p>No. The town list shows the general area. Send your location and what the vehicle needs and we can tell you whether it is workable.</p></details><details><summary>Do you come to homes and workplaces?</summary><p>When the repair and location make sense, yes. The work area needs to be reasonably safe and accessible, and the property owner or responsible party must allow the repair to be performed there.</p></details><details><summary>Do you work at rural addresses?</summary><p>Yes, rural locations are considered. Accessibility, work area, distance and the type of repair all matter.</p></details><details><summary>Will you come to me for a large repair?</summary><p>Not always. Larger or more involved repairs may need to be performed at our repair location because of equipment, teardown time, safety or working conditions.</p></details><details><summary>Do you provide emergency roadside assistance?</summary><p>No. Shawnee Auto Repair offers scheduled on-site repair, not 24/7 emergency roadside service. If the vehicle cannot be moved, contact us with the situation and we can tell you what options make sense.</p></details></div></div></section>
+<section class="section services-section" id="contact"><div class="wrap"><div class="contact-panel"><div><div class="eyebrow">Check your location</div><h2>Send the town, the vehicle and what is going on.</h2><p class="lead">For the fastest answer, text the year, make, model, vehicle location and what you need done. We can tell you whether on-site service, the repair location or another option makes the most sense.</p></div><div class="contact-links"><a class="contact-link" href="tel:+17732700744"><span>(773) 270-0744</span></a><a class="contact-link" href="sms:+17732700744?body=Hi%20Shawnee%20Auto%20Repair%20-%20I%27d%20like%20an%20estimate.%0AVehicle%20year%2C%20make%2C%20model%3A%0ALocation%3A%0AProblem%3A"><span>Text Your Location &amp; Repair</span></a><a class="contact-link" href="contact.html"><span>Request Service</span></a><a class="contact-link" href="mailto:shawneerepairco@gmail.com"><span>shawneerepairco@gmail.com</span></a><div class="phone-note">(773) 270-0744 is Shawnee Auto Repair’s Southern Illinois call/text number.</div></div></div></div></section>
+</main><footer>
+<div class="wrap footer-grid">
+<div>
+<div class="footer-brand">Shawnee Auto Repair • Southern Illinois</div>
+<div>© <span id="year"></span> Shawnee Auto Repair. All rights reserved.</div>
+</div>
+<div class="footer-links"><a href="index.html">Home</a><a href="services.html">Services</a><a href="about.html">Why Shawnee</a><a href="pricing.html">Pricing</a><a href="service-area.html">Service Area</a><a href="contact.html">Contact</a></div>
+</div>
+</footer><div aria-label="Quick contact" class="mobile-actions">
+<a class="m-call" href="tel:+17732700744">Call</a>
+<a class="m-text" href="sms:+17732700744?body=Hi%20Shawnee%20Auto%20Repair%20-%20I%27d%20like%20an%20estimate.%0AVehicle%20year%2C%20make%2C%20model%3A%0ALocation%3A%0AProblem%3A">Text</a>
+</div><script>const menuBtn=document.getElementById('menuBtn');const navLinks=document.getElementById('navLinks');menuBtn?.addEventListener('click',()=>{const open=navLinks.classList.toggle('open');menuBtn.setAttribute('aria-expanded',String(open));menuBtn.setAttribute('aria-label',open?'Close menu':'Open menu')});navLinks?.querySelectorAll('a').forEach(link=>link.addEventListener('click',()=>{navLinks.classList.remove('open');menuBtn?.setAttribute('aria-expanded','false');menuBtn?.setAttribute('aria-label','Open menu')}));document.getElementById('year').textContent=new Date().getFullYear();</script></body></html>
